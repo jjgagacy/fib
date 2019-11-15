@@ -10,7 +10,7 @@ The sequence can start with a zero or a one.
 
 # Usage
 
-fib uses two ways to calculate fibonacci number, `FibonacciLoop` and `FibonacciRecursion`. There is another shortcut method `Fib`， which it calls `FibonacciLoop` since `FibonacciRecursion` isn't always efficient.
+fib uses two ways to calculate fibonacci number, `FibonacciLoop` and `FibonacciRecursion`. There is another shortcut method `Fib`, which calls `FibonacciLoop` since `FibonacciRecursion` isn't always efficient.
 
 ```go
 fmt.Println(fib.Fib(5)) // 5
